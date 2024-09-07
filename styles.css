@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Dancing Script', cursive; /* Apply the font to the header */
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép ảnh tự động xuống dòng khi không đủ chỗ */
+    justify-content: center; /* Căn giữa các ảnh theo chiều ngang */
+    gap: 10px; /* Khoảng cách giữa các ảnh */
+    padding: 20px;
+}
+
+.image-gallery img {
+    max-width: 5000px; /* Giới hạn chiều rộng tối đa của ảnh */
+    height: 900px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
